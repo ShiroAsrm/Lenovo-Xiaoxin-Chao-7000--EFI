@@ -46,7 +46,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 nvda_drv=1</string>
+		<string>-v dart=0 keepsyms=1 debug=0x100</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -146,7 +146,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Universe</string>
+		<string>gold_clover</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -963,13 +963,13 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/08/2018</string>
+		<string>09/17/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP132.88Z.0242.B00.1802080916</string>
+		<string>MBP142.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
-		<string>Mac-66E35819EE2D0D05</string>
+		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
@@ -982,6 +982,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>184.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -997,7 +999,7 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro13,2</string>
+		<string>MacBookPro14,2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

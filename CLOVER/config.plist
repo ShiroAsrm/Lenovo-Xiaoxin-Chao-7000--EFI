@@ -159,6 +159,34 @@
 					WFBBRA==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q11 to _XQ11</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q12 to _XQ12</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMg==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -180,6 +208,10 @@
 			<false/>
 			<key>Generate</key>
 			<dict>
+				<key>APLF</key>
+				<false/>
+				<key>APSN</key>
+				<false/>
 				<key>CStates</key>
 				<false/>
 				<key>PStates</key>
@@ -192,7 +224,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v darkwake=0 keepsyms=1 debug=0x100</string>
+		<string>-igfxdump keepsyms=1 darkwake=0 debug=0x100 -v -lilubetaall</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
@@ -306,6 +338,8 @@
 			<string>Recovery</string>
 			<string>Windows</string>
 		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -331,7 +365,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>gold_clover</string>
+		<string>blackMojave</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -696,24 +730,6 @@
 				Qb4PAAAA60Q=
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Micro Inc. SD Card Reader - pci14e4,16bc -&gt; pci1217,8621</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				cGNpMTRlNCwxNmJj
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleSDXC</string>
-				<key>Replace</key>
-				<data>
-				cGNpMTIxNyw4NjIx
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -728,15 +744,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>09/17/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.0178.B00.1806260902</string>
+		<string>MBP142.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
-		<string>Mac-B4831CEBD52A0C4C</string>
+		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02732405CDHRPCCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -747,6 +765,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>184.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -762,7 +782,11 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro14,2</string>
+		<key>SerialNumber</key>
+		<string>C02V6KYUHV2N</string>
+		<key>SmUUID</key>
+		<string>BC535596-0304-4D60-B89B-33805186C025</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
