@@ -2,6 +2,8 @@
 
 
 
+[中文版](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md)|[English](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md/docs/Readme.md)
+
 
 
 本EFI适配于联想小新潮7000 14寸系列的黑苹果。
@@ -172,7 +174,7 @@ EFI全版本下载地址：[点击这里下载](https://pan.baidu.com/s/1QcrvxI5
 - [vit9696](https://github.com/vit9696) 提供的 [Lilu](https://github.com/acidanthera/Lilu) 、 [AppleALC](https://github.com/acidanthera/AppleALC) 、 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) 、 [HibernationFixup](https://github.com/acidanthera/HibernationFixup)等驱动
 - [PMheart](https://github.com/PMheart) 提供的 [CPUFriend](https://github.com/PMheart/CPUFriend) 驱动
 - [Alexandred](https://github.com/alexandred) 及其开发团队提供的[VoodooI2C](https://github.com/alexandred/VoodooI2C) 驱动
-- [黑果小兵](https://github.com/da'lian's'k'y) 大大提供的黑苹果镜像更新以及配置文件维护
+- [黑果小兵](https://github.com/daliansky) 大大提供的黑苹果镜像更新以及配置文件维护
 - **@宪武** 大神提供的热补丁施工方案
 
 
