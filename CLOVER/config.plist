@@ -200,6 +200,8 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>FrequencyMHz</key>
+		<integer>3400</integer>
 		<key>HWPEnable</key>
 		<false/>
 		<key>UseARTFrequency</key>
@@ -212,10 +214,12 @@
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
-			<integer>16</integer>
+			<integer>99</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>HDMIInjection</key>
+		<true/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
