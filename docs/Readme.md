@@ -156,7 +156,7 @@ EFI download is avaliable here,  [Click here to download](https://pan.baidu.com/
 
 ## Installation
 
-The image files can obtain in [Daliansky's Blog](https://blog.daliansky.net), or another you want to use.  Of course, if you are good at  Chinese, you can also choose to read my guide of Hard-Disk instalation of Hackinstosh and have a  try.  [Click here for more details](https://www.penghubingzhou.cn/2019/01/05/教你在Win下Clover硬盘安装黑苹果/) 
+The image files can obtain in [Daliansky's Blog](https://blog.daliansky.net), or another you want to use.  Of course, if you are good at  Chinese, you can also choose to read my guide of Hard-Disk installation of Hackinstosh and have a try.  [Click here for more details](https://www.penghubingzhou.cn/2019/01/05/教你在Win下Clover硬盘安装黑苹果/) 
 
 
 
