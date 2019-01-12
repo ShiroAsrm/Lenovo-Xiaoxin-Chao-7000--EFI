@@ -61,49 +61,49 @@ This EFI is suitable for the 7000 14 inch Hackinstosh of Lenovo.
 
 
 
-![sysinfo](screenshot/sysinfo.png)
+![sysinfo](../screenshot/sysinfo.png)
 
 
 
-![hardware](screenshot/hardware.png)
+![hardware](../screenshot/hardware.png)
 
 
 
-![display](screenshot/display.png)
+![display](../screenshot/display.png)
 
 
 
-![hidpi](screenshot/hidpi.png)
+![hidpi](../screenshot/hidpi.png)
 
 
 
-![backlight](screenshot/backlight.png)
+![backlight](../screenshot/backlight.png)
 
 
 
-![wifi](screenshot/wifi.png)
+![wifi](../screenshot/wifi.png)
 
 
 
-![bluetooth](screenshot/bluetooth.png)
-
-
-
-
-
-![alc236](screenshot/alc236.png)
+![bluetooth](../screenshot/bluetooth.png)
 
 
 
 
 
-![sound](screenshot/sound.png)
+![alc236](../screenshot/alc236.png)
 
 
 
 
 
-![touchpad](screenshot/touchpad.png)
+![sound](../screenshot/sound.png)
+
+
+
+
+
+![touchpad](../screenshot/touchpad.png)
 
 
 
