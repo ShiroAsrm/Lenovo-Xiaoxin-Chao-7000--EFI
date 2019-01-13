@@ -185,6 +185,6 @@ The image files can obtain in [Daliansky's Blog](https://blog.daliansky.net), or
 
 
 
-| WeChat                       | AliPay                       |
-| ---------------------------- | ---------------------------- |
-| ![wechat](donate/wechat.jpg) | ![alipay](donate/alipay.jpg) |
+| WeChat                          | AliPay                          |
+| ------------------------------- | ------------------------------- |
+| ![wechat](../donate/wechat.jpg) | ![alipay](../donate/alipay.jpg) |
