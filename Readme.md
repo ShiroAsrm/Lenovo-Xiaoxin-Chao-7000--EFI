@@ -117,7 +117,7 @@
 
 
 
-
+![HDMI](screenshot/HDMI.png)
 
 
 

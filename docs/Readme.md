@@ -107,6 +107,18 @@ This EFI is suitable for the 7000 14 inch Hackinstosh of Lenovo.
 
 
 
+
+
+![HDMI](../screenshot/HDMI.png)
+
+
+
+
+
+
+
+
+
 ## Recently updated
 
 
