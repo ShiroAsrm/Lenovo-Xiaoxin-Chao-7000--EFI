@@ -123,6 +123,17 @@ This EFI is suitable for the 7000 14 inch Hackinstosh of Lenovo.
 
 
 
+- 01-23-2019  EFI 3.2
+
+  - Fix HDMI Display  issue
+  - Remove `VoodooSDHC` ，add `Sinetek-rtsk`
+  - Remove config.plist for Sierra
+  - Update Clover version to 4895，support for 14.3 installation
+
+- 
+
+  ​      修复HDMI输出问题移除旧版VoodooSDHC驱动，添加新的读卡器驱动移除12系列的配置文件更新四叶草版本至4895，支持14.3安装使用
+
 - 12-18-2018  EFI 3.1
 
   - Update Lilu and WhateverGreen versions.
