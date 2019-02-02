@@ -14,6 +14,8 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>FakeLPC</key>
+				<true/>
 				<key>FixRegions</key>
 				<true/>
 			</dict>
@@ -25,9 +27,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -35,9 +41,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>
+					SERBUw==
+					</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -45,9 +55,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>
+					SEVDSQ==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -55,9 +69,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -65,9 +83,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U0FUMA==</data>
+					<data>
+					U0FUMA==
+					</data>
 					<key>Replace</key>
-					<data>U0FUQQ==</data>
+					<data>
+					U0FUQQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -75,9 +97,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BSVw==</data>
+					<data>
+					X1BSVw==
+					</data>
 					<key>Replace</key>
-					<data>WFBSVw==</data>
+					<data>
+					WFBSVw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -85,9 +111,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1ExMg==</data>
+					<data>
+					X1ExMg==
+					</data>
 					<key>Replace</key>
-					<data>WFExMg==</data>
+					<data>
+					WFExMg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -95,9 +125,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1ExMQ==</data>
+					<data>
+					X1ExMQ==
+					</data>
 					<key>Replace</key>
-					<data>WFExMQ==</data>
+					<data>
+					WFExMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -105,9 +139,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>VFBBRA==</data>
+					<data>
+					VFBBRA==
+					</data>
 					<key>Replace</key>
-					<data>WFBBRA==</data>
+					<data>
+					WFBBRA==
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -146,7 +184,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 debug=0x100 -lilubetaall -v</string>
+		<string>-lilubetaall keepsyms=1 debug=0x100</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
@@ -189,21 +227,37 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAWWQ==</data>
+				<data>
+				AAAWWQ==
+				</data>
 				<key>device-id</key>
-				<data>FlkAAA==</data>
+				<data>
+				FlkAAA==
+				</data>
 				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
+				<data>
+				AAAAgA==
+				</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -262,7 +316,12 @@
 		<key>EDID</key>
 		<dict>
 			<key>Custom</key>
-			<data>AP///////wANrtQUAAAAACQaAQSlHxF4Aihll1lUjiceUFQAAAABAQEBAQEBAQEBAQEBAQEBtDuASnE4NEBQPGgANa0QAAAYAAAA/gBOMTQwSENBLUVBQwogAAAA/gBDTU4KICAgICAgICAgAAAA/gBOMTQwSENBLUVBQwogAAU=</data>
+			<data>
+			AP///////wANrtQUAAAAACQaAQSlHxF4Aihll1lUjiceUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBtDuASnE4NEBQPGgANa0QAAAYAAAA/gBO
+			MTQwSENBLUVBQwogAAAA/gBDTU4KICAgICAgICAgAAAA/gBOMTQw
+			SENBLUVBQwogAAU=
+			</data>
 			<key>Inject</key>
 			<true/>
 			<key>ProductID</key>
@@ -310,11 +369,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>sABMi1Xw</data>
+				<data>
+				sABMi1Xw
+				</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>SIPEQF3D</data>
+				<data>
+				SIPEQF3D
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -322,11 +385,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRE</data>
+				<data>
+				igKEwHRE
+				</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>igKEwOtE</data>
+				<data>
+				igKEwOtE
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -334,11 +401,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
+				<data>
+				igKEwHRC
+				</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>igKEwOtC</data>
+				<data>
+				igKEwOtC
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -346,9 +417,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -361,13 +436,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>IOBufferCopyController</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -375,13 +454,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>AppleIntelLpssI2C</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -389,13 +472,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>AppleIntelLpssI2CController</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -403,13 +490,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -434,8 +525,6 @@
 		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02732405CDHRPCCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -466,10 +555,6 @@
 		<string>MacBookPro14,2</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
-		<key>SerialNumber</key>
-		<string>C02V6KYUHV2N</string>
-		<key>SmUUID</key>
-		<string>BC535596-0304-4D60-B89B-33805186C025</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
