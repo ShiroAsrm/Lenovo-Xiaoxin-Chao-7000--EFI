@@ -30,7 +30,7 @@
 
 ## 完成情况
 
-1. 显卡：由于机型BIOS限制，自带独显940MX无解，已经通过热补丁屏蔽；核显UHD620在13.6以上原生支持，已经使用`WhateverGreen`驱动，配置文件已经打入缓冲帧；HDMI输出目前存在问题
+1. 显卡：由于机型BIOS限制，自带独显940MX无解，已经通过热补丁屏蔽；核显UHD620在13.6以上原生支持，已经使用`WhateverGreen`驱动，配置文件已经打入缓冲帧；HDMI目前未发现问题
 2. 网卡：英特尔无线网卡目前无解，更换为DW1560，驱动方式请见黑果小兵的帖子：[Broadcom WiFi/BlueTooth BCM94352z(DW1560)的正确驱动姿势[原始方法]](http://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html)
 3. 声卡：声卡型号为`ALC236`，使用`AppleALC`驱动声卡。ID列表中`3，11，13，15，16，99`均有输出，但是只有`15，99`相对完美。本EFI采用`99`
 4. 蓝牙：自带英特尔蓝牙无解，更换为DW1560 的蓝牙可用，一切正常。
