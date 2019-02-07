@@ -8,7 +8,7 @@
 
 
 
-This EFI is suitable for the 7000 14 inch Hackinstosh of Lenovo.
+This EFI is suitable for the 7000 Hackinstosh of Lenovo.
 
 
 
@@ -30,7 +30,7 @@ This EFI is suitable for the 7000 14 inch Hackinstosh of Lenovo.
 
 ## Completion of the Situation
 
-1. Graphics Card: due to the limitation of BIOS, it has no solution for DGPU NVIDIA Graphic 940MX and It has been disabled by hotpatch. The core display UHD620 has had native support after  13.6 . It worked with `WhateverGreen`, and the configuration file has already been made framebuffer by `FBPatcher`; HDMI output has some problems at present.
+1. Graphics Card: due to the limitation of BIOS, it has no solution for DGPU NVIDIA Graphic 940MX and It has been disabled by hotpatch. The core display UHD620 has had native support after  13.6 . It worked with `WhateverGreen`, and the configuration file has already been made framebuffer by `FBPatcher`; HDMI output has no problem at present.
 2. NIC: Intel wireless network card has no solution at present, replaced by `DW1560`. The driving way is alternative in Daliansky ‘s blog:  [Broadcom WiFi/BlueTooth BCM94352z(DW1560)的正确驱动姿势[原始方法]](http://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html)
 3. Sound Card: The sound card type is `ALC236`, worked with  `AppleALC` . These IDs can work with it  `3, 11, 13, 15, 16, 99` , but only `15, 99` is relatively perfect. This EFI adopted  `99`
 4. Bluetooth: Intel Bluetooth has no solution, replace DW1560 Bluetooth , everything is perfect.
