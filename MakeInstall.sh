@@ -88,7 +88,7 @@ EOF
     case $input in
         1) SYNA2B2C
         ;;
-        2) SYNA2393
+        2) SYNA2393/06CB0001
         ;;
         3) start
         ;;
