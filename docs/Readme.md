@@ -1,4 +1,4 @@
-# Lenovo Xiao Xinchao 7000 EFI For Hackinstosh
+# Lenovo Xiao Xinchao 7000 EFI For Hackintosh
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-This EFI is suitable for the 7000 Hackinstosh of Lenovo.
+This EFI is suitable for the 7000 Hackintosh of Lenovo.
 
 
 
