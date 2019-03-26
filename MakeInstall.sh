@@ -129,8 +129,8 @@ function SYNA2393()
     echo "正在生成SYNA2393的EFI……"
     sudo rm -Rf $makedir
     cp -R $origindir/basic $makedir
-    cp $origindir/config/SYNA2394.plist $makedir/CLOVER/config.plist
-    cp -R  $origindir/ACPI/SYNA2394 $makedir/CLOVER/ACPI
+    cp $origindir/config/SYNA2393.plist $makedir/CLOVER/config.plist
+    cp -R  $origindir/ACPI/SYNA2393 $makedir/CLOVER/ACPI
     read -p "生成成功，按任意键返回上层！"
     start
 }
