@@ -122,7 +122,7 @@ function SYNA2B2C()
 }
 
 #2393触摸板生成模块
-function SYNA2393()
+function SYNA2393/06CB0001()
 {
     dirdetect
 
