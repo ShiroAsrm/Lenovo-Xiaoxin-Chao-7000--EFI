@@ -80,7 +80,7 @@ function generate()
 cat << EOF
 请选择您的触摸板型号：
 (1) SYNA2B2C
-(2) SYNA2393
+(2) SYNA2393/06CB0001
 (3) 返回
 EOF
 
@@ -88,7 +88,7 @@ EOF
     case $input in
         1) SYNA2B2C
         ;;
-        2) SYNA2393/06CB0001
+        2) SYNA2393
         ;;
         3) start
         ;;
@@ -122,7 +122,7 @@ function SYNA2B2C()
 }
 
 #2393触摸板生成模块
-function SYNA2393/06CB0001()
+function SYNA2393()
 {
     dirdetect
 
