@@ -14,6 +14,10 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddIMEI</key>
+				<false/>
+				<key>FixHPET</key>
+				<false/>
 				<key>FixRegions</key>
 				<true/>
 			</dict>
@@ -147,63 +151,9 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change MHIF to XHIF in VPC0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TUhJRg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhJRg==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VlBDMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SMTF to XMTF in VPC0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U01URg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WE1URg==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VlBDMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GSBI to XSBI  in BAT0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R1NCSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNCSQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VlBDMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _BIF to XBIF in BAT0</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0JJRg==
@@ -221,7 +171,7 @@
 					<key>Comment</key>
 					<string>change _BST to XBST in BAT0</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0JTVA==
@@ -233,6 +183,78 @@
 					<key>TgtBridge</key>
 					<data>
 					QkFUMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _STA to XSTA in BAT0</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					QkFUMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SMTF to XMTF in VPC0</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					U01URg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE1URg==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VlBDMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GSBI to XSBI in VPC0</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					R1NCSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNCSQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VlBDMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change MHIF to XHIF in VPC0</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					TUhJRg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhJRg==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VlBDMA==
 					</data>
 				</dict>
 			</array>
@@ -254,6 +276,8 @@
 		<true/>
 		<key>FixMCFG</key>
 		<false/>
+		<key>PatchAPIC</key>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -268,6 +292,8 @@
 				<true/>
 			</dict>
 		</dict>
+		<key>smartUPS</key>
+		<false/>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -278,7 +304,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>MAC</string>
+		<string>LastBootedVolume</string>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
@@ -360,6 +386,8 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>CustomIcons</key>
+		<false/>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
@@ -433,7 +461,7 @@
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
